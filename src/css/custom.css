@@ -1,0 +1,77 @@
+/* Shapper Docs — Custom Theme */
+
+:root {
+  --ifm-color-primary: #387dc9;
+  --ifm-color-primary-dark: #2e6fba;
+  --ifm-color-primary-darker: #2b69b0;
+  --ifm-color-primary-darkest: #235791;
+  --ifm-color-primary-light: #4a8dd3;
+  --ifm-color-primary-lighter: #5396d7;
+  --ifm-color-primary-lightest: #75ade2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-weight: 700;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #75ade2;
+  --ifm-color-primary-dark: #5396d7;
+  --ifm-color-primary-darker: #4a8dd3;
+  --ifm-color-primary-darkest: #387dc9;
+  --ifm-color-primary-light: #97c1ea;
+  --ifm-color-primary-lighter: #a6cbed;
+  --ifm-color-primary-lightest: #c5dff4;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #1a1b1e;
+  --ifm-navbar-background-color: #141517;
+}
+
+/* Sidebar */
+.menu__link {
+  font-size: 0.9rem;
+}
+
+/* Images in docs — responsive & centered */
+.markdown img {
+  display: block;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+[data-theme='dark'] .markdown img {
+  box-shadow: 0 2px 16px rgba(0,0,0,0.5);
+}
+
+/* Video embeds */
+.markdown video {
+  display: block;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+}
+
+/* Callout / admonition tweaks */
+.alert {
+  border-radius: 10px;
+}
+
+/* Navbar logo sizing */
+.navbar__logo img {
+  height: 28px;
+}
+
+/* Badge for shortcuts */
+kbd {
+  display: inline-block;
+  padding: 0.15em 0.5em;
+  font-size: 0.85em;
+  font-family: monospace;
+  background: var(--ifm-color-emphasis-200);
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 var(--ifm-color-emphasis-400);
+}
