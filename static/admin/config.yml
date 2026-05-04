@@ -1,0 +1,47 @@
+backend:
+  name: github
+  repo: mysteropodes/shapper-docs
+  branch: main
+  auth_type: pkce
+  app_id: REPLACE_WITH_OAUTH_APP_CLIENT_ID
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: docs-root
+    label: "Pages principales"
+    folder: docs
+    create: false
+    filter: {field: "id", pattern: "^(intro|installation|bake|feedback|rig-optimize|shortcuts|svg-mode|ui-navigation)$"}
+    fields:
+      - {label: "ID", name: "id", widget: "hidden"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: mask-influences
+    label: "Mask Influences"
+    folder: docs/mask-influences
+    create: true
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: animation
+    label: "Animation"
+    folder: docs/animation
+    create: true
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: perspective
+    label: "Perspective"
+    folder: docs/perspective
+    create: true
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
