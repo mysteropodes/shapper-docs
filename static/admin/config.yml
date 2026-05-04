@@ -3,7 +3,7 @@ backend:
   repo: mysteropodes/shapper-docs
   branch: main
   auth_type: pkce
-  app_id: REPLACE_WITH_OAUTH_APP_CLIENT_ID
+  app_id: Ov23liZP5MG7BPRmUzFl
 
 media_folder: static/img
 public_folder: /img
