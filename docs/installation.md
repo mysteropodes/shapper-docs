@@ -18,5 +18,5 @@ title: Installation
 - **One licence per machine.** You can revoke a machine from your account to transfer to another.
 
 <video controls width="600">
-  <source src="../img/NVIDIA_Overlay_zGoW5mCJAE.mp4" type="video/mp4" />
+  <source src="/img/NVIDIA_Overlay_zGoW5mCJAE.mp4" type="video/mp4" />
 </video>

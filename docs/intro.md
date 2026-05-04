@@ -10,7 +10,7 @@ import styles from '@site/src/css/custom.css';
 
 **Precise Rigs, Endless Perspective**
 
-![Shapper Banner](./img/PShaper_promo_16_copie.png)
+![Shapper Banner](/img/PShaper_promo_16_copie.png)
 
 :::info What is Shapper?
 A versatile After Effects extension for **advanced shape manipulation**,
