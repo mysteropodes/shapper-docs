@@ -8,13 +8,38 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: docs
-    label: "Documentation"
+  - name: docs-root
+    label: "Pages principales"
     folder: docs
-    create: true
-    nested:
-      depth: 2
+    create: false
     fields:
       - {label: "ID", name: "id", widget: "string", required: false}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: mask-influences
+    label: "Mask Influences"
+    folder: docs/mask-influences
+    create: true
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: animation
+    label: "Animation & Control"
+    folder: docs/animation
+    create: true
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: perspective
+    label: "Perspective Deform"
+    folder: docs/perspective
+    create: true
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Contenu", name: "body", widget: "markdown"}
