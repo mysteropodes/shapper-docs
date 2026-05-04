@@ -17,5 +17,4 @@ title: Installation
 - Enter the **email** used to purchase Shapper and the associated **license key**.
 - **One licence per machine.** You can revoke a machine from your account to transfer to another.
 
-
 ![](/img/NVIDIA_Overlay_zGoW5mCJAE.gif)
