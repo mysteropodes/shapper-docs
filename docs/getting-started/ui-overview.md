@@ -27,7 +27,7 @@ Shapper's panel is divided into several zones. Understanding each area will help
 
 | Icon | Button | Description |
 |:---:|---|---|
-| <ToolIcon src="/img/icons/icon-load-masks.png" size={36} /> | **Load Masks** | Import mask influence data from the active AE layer |
+| <ToolIcon src="/img/icons/icon-load-masks.png" size={36} /> | **Load Mask Influence** | Import both shapes and mask data from the selected AE layer |
 | <ToolIcon src="/img/icons/icon-rig-optimize.png" size={36} /> | **Rig Optimize** | Optimize and clean up the rig |
 | <ToolIcon src="/img/icons/icon-perspective-shape.png" size={36} /> | **Perspective Shape** | Apply perspective deform to one shape |
 | <ToolIcon src="/img/icons/icon-perspective-all.png" size={36} /> | **Perspective All Shapes** | Apply perspective deform to all shapes |
@@ -54,9 +54,9 @@ Shapper's panel is divided into several zones. Understanding each area will help
 The central area displays your shapes and masks as an interactive SVG canvas.
 
 - **Blue points** — shape vertices
-- **Orange points** — mask vertices
+- **Mask points** — displayed with their AE mask color (highlighted on selection)
 - **Influence boxes** — numerical values on each shape point showing how much each mask affects it
-- **Ghost points** — semi-transparent orange dots showing a shape point's original (undeformed) position when it has been offset
+- **Ghost points** — semi-transparent dots showing a shape point's original (undeformed) position when it has been offset
 
 ### Navigation
 - **Scroll** — zoom in / out
@@ -76,6 +76,6 @@ The bottom strip shows keyframe data when animation is loaded from AE.
 The **S** key switches between the two selection modes:
 
 - **Shape mode** — clicking and marquee-selecting targets shape points (blue)
-- **Mask mode** — clicking and marquee-selecting targets mask points (orange)
+- **Mask mode** — clicking and marquee-selecting targets mask points
 
 The active mode button is highlighted in the bottom toolbar.
