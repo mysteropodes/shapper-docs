@@ -3,7 +3,7 @@ id: perspective-shape
 title: Perspective Shape
 ---
 
-# 📐 Perspective Deform
+# <ToolIcon src="/img/icons/icon-perspective-shape.png" size={36} /> Perspective Deform
 
 ![Perspective Deform panel](/img/AfterFX_GBpq1vA9jS.png)
 

@@ -3,7 +3,7 @@ id: path-animation
 title: Path Animation
 ---
 
-# <ToolIcon src="/img/icons/icon-path-animation.png" size={36} /> Path Animation
+# <ToolIcon src="/img/icons/icon-two-point-deformer.png" size={36} /> Path Animation
 
 Path Animation is a powerful feature that lets you **keyframe shape point positions directly in After Effects**, while the mask deformation continues to apply on top. You get the best of both worlds: precise manual shape control through keyframes, combined with the dynamic influence of your mask rig.
 

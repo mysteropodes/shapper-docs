@@ -3,7 +3,7 @@ id: rig-optimize
 title: Rig Optimize
 ---
 
-# 🔧 Rig Optimize
+# <ToolIcon src="/img/icons/icon-rig-optimize.png" size={36} /> Rig Optimize
 
 **Rig Optimize** is mainly used in **Expression Mode** when the rig is slow to compute, or when you simply want to see only the bones (masks).
 

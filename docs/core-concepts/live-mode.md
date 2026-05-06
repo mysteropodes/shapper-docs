@@ -9,7 +9,7 @@ Live Mode controls whether Shapper sends influence changes to After Effects **im
 
 ## Toggle
 
-The <ToolIcon src="/img/icons/icon-live-mode.png" size={24} /> **Live Mode** button is in the toolbar. It shows its current state:
+The <ToolIcon src="/img/icons/icon-live-mode.png" size={24} /> **Live Mode** button is in the bottom toolbar. It shows its current state:
 
 - **ON** (glowing blue) — every influence change is sent to AE in real time
 - **OFF** — changes accumulate locally in Shapper; AE is only updated when you click Send
