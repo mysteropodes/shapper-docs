@@ -23,18 +23,30 @@ Shapper's panel is divided into several zones. Understanding each area will help
 
 ## Toolbar
 
-The top toolbar contains all main controls:
+### Top row — main tools
 
-| Button | Description |
-|---|---|
-| **Load** | Read shape and mask data from the active AE composition |
-| **Send** | Apply current influence data back to After Effects |
-| **Exp / SVG toggle** | Switch between Expression Mode and SVG Mode |
-| **Live Mode** | Toggle real-time sending to AE on/off |
-| **Magnet Brush** | Activate the Magnet Brush tool |
-| **Eye icon** | Show / hide influence value boxes on each point |
-| **Lock icon (S)** | Switch selection mode between Shape and Mask |
-| **Undo (Ctrl+Z)** | Step back through influence history |
+| Icon | Button | Description |
+|:---:|---|---|
+| <ToolIcon src="/img/icons/icon-load-masks.png" size={36} /> | **Load Masks** | Import mask data from the active AE layer |
+| <ToolIcon src="/img/icons/icon-load-shape.png" size={36} /> | **Load Shape** | Import shape path data from the active AE layer |
+| <ToolIcon src="/img/icons/icon-select.png" size={36} /> | **Select** | Activate marquee / point selection |
+| <ToolIcon src="/img/icons/icon-transform-shape.png" size={36} /> | **Transform Shape** | Move / deform selected shape points |
+| <ToolIcon src="/img/icons/icon-transform-box.png" size={36} /> | **Transform Box** | Bounding-box transform for selected points (`Ctrl+T`) |
+| <ToolIcon src="/img/icons/icon-path-animation.png" size={36} /> | **Path Animation** | Move points and record AE keyframes automatically |
+| <ToolIcon src="/img/icons/icon-bake.png" size={36} /> | **Bake** | Bake all expressions into direct keyframes |
+| <ToolIcon src="/img/icons/icon-expression-on.png" size={36} /> | **Expression Mode ON** | Influences are written as AE expressions |
+| <ToolIcon src="/img/icons/icon-expression-off.png" size={36} /> | **Expression Mode OFF** | Influences written as static values |
+
+### Bottom row — view & mode controls
+
+| Icon | Button | Description |
+|:---:|---|---|
+| <ToolIcon src="/img/icons/icon-undo.png" size={36} /> | **Undo** | Step back through influence history (`Ctrl+Z`) |
+| <ToolIcon src="/img/icons/icon-live-mode.png" size={36} /> | **Live Mode** | Toggle real-time sending to AE on/off |
+| <ToolIcon src="/img/icons/icon-show-points.png" size={36} /> | **Show Points** | Show / hide influence value boxes on each point |
+| <ToolIcon src="/img/icons/icon-magnet.png" size={36} /> | **Magnet Brush** | Activate the Magnet Brush tool |
+| <ToolIcon src="/img/icons/icon-select-mask.png" size={36} /> | **Mask Mode** | Switch selection to mask points (`S`) |
+| <ToolIcon src="/img/icons/icon-select-shape.png" size={36} /> | **Shape Mode** | Switch selection to shape points (`S`) |
 
 ## SVG Viewer
 

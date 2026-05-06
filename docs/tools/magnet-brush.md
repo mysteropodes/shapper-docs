@@ -13,7 +13,7 @@ _Illustration: drag the magnet brush across a shape, multiple points follow with
 
 ## Activating
 
-Click the **magnet icon** (🧲) in the toolbar, or press its shortcut. The cursor changes and a **circle** appears on the viewer representing the brush radius.
+Click the <ToolIcon src="/img/icons/icon-magnet.png" size={24} /> **Magnet Brush** button in the toolbar. The cursor changes and a **circle** appears on the viewer representing the brush radius.
 
 ## Using the Brush
 

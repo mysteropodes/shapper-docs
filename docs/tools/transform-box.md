@@ -14,7 +14,7 @@ _Illustration: select multiple shape points, activate transform box, scale and r
 ## Activating
 
 1. Select one or more points (click or marquee)
-2. Press **Ctrl+T** — a bounding box appears around the selection
+2. Press **Ctrl+T** or click the <ToolIcon src="/img/icons/icon-transform-box.png" size={24} /> **Transform Box** button — a bounding box appears around the selection
 
 Press **Ctrl+T** again or **Escape** to exit the Transform Box.
 

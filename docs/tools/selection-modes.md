@@ -9,15 +9,15 @@ Shapper has two selection modes that control which type of points your clicks an
 
 ## Shape Mode vs Mask Mode
 
-| Mode | What you select | Points highlighted |
-|---|---|---|
-| **Shape mode** | Shape vertices (blue) | Blue points become active |
-| **Mask mode** | Mask vertices (orange) | Orange points become active |
+| Icon | Mode | What you select |
+|:---:|---|---|
+| <ToolIcon src="/img/icons/icon-select-shape.png" size={32} /> | **Shape mode** | Shape vertices (blue points) |
+| <ToolIcon src="/img/icons/icon-select-mask.png" size={32} /> | **Mask mode** | Mask vertices (orange points) |
 
 ## Switching Modes
 
 - Press **S** to toggle between modes
-- Or click the **Lock button** in the toolbar
+- Or click the mode button in the toolbar
 
 The active mode is shown on the Lock button icon.
 

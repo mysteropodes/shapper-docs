@@ -27,6 +27,13 @@ When you click **Send**, Shapper writes the influence data into an expression on
 3. Click **Send** → Shapper writes the expression into AE
 4. Animate your masks in the AE timeline
 
+## Toggle in the Toolbar
+
+| Icon | State |
+|:---:|---|
+| <ToolIcon src="/img/icons/icon-expression-on.png" size={32} /> | **Expression Mode ON** — deformation is written as an AE expression |
+| <ToolIcon src="/img/icons/icon-expression-off.png" size={32} /> | **Expression Mode OFF** — influences written as static values only |
+
 ## Expression Mode vs Bake
 
 | | Expression Mode | Bake |

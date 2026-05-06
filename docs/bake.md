@@ -3,7 +3,7 @@ id: bake
 title: Bake
 ---
 
-# 🧊 Bake
+# <ToolIcon src="/img/icons/icon-bake.png" size={36} /> Bake
 
 The global **Bake** button bakes expressions and animations of **all types of deformers**.
 
