@@ -74,6 +74,18 @@ You can parent any layer to it.
 
 ---
 
+### IK — Inverse Kinematics
+
+**IK** lets you define a chain of mask points and animate them using Inverse Kinematics — move the end of the chain and intermediate points follow automatically.
+
+1. Right-click a mask point → **IK** → Shapper enters chain selection mode
+2. Click the mask points that form your chain, in order from root to tip
+3. Click **Validate IK** to confirm
+
+See [IK System](../tools/ik-system) for full details.
+
+---
+
 ## Shape Options
 
 - **Follow Shape** creates a null that follows your selected shape point. Parent any layer to it.

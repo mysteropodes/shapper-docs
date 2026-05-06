@@ -5,30 +5,48 @@ title: Shortcuts
 
 # ⌨️ Shortcuts
 
-## Viewer Shortcuts
+## Viewer — Selection & Editing
 
 | Shortcut | Action |
 |---|---|
-| `S` | Switch between Shape point selection and Mask point selection |
-| `Right Click` on Mask/Shape point | Open Options menu |
-| `Shift + Click` or drag | Select multiple shape/mask points |
-| `Ctrl + Click` on shape point | Add / Remove tangent |
+| `S` | Toggle selection mode (Shape ↔ Mask) |
+| `Ctrl + T` | Activate / deactivate Transform Box |
+| `Ctrl + Z` | Undo last change |
+| `Right Click` on point | Open options menu |
+| `Shift + Click` or drag | Select multiple points |
+| `Ctrl + Click` on shape point | Add / remove tangent handle |
 | `Alt + Click` on mask point | Start a Link Point connection |
-| `Alt + Click` on link line / arrow | Remove the link |
+| `Alt + Click` on link line / arrow | Remove a link |
 
-## Timeline Shortcuts
+## Viewer — Navigation
+
+| Shortcut | Action |
+|---|---|
+| `Mouse Wheel` | Zoom (cursor = zoom center) |
+| `Alt + Drag` | Pan the view |
+| `Middle Mouse Button + Drag` | Pan the view |
+| `Double-click` (empty area) | Reset zoom & pan |
+
+## Magnet Brush
+
+| Shortcut | Action |
+|---|---|
+| `Alt + Drag` on brush circle edge | Resize brush radius |
+| Hold `Ctrl` while dragging | Smooth tangents mode |
+| Release `Ctrl` | Restore tangents, return to move mode |
+
+## Transform Box
+
+| Shortcut | Action |
+|---|---|
+| `Ctrl + T` | Activate / deactivate |
+| `Escape` | Exit Transform Box |
+
+## Timeline
 
 | Shortcut | Action |
 |---|---|
 | `Space` | Play / Pause |
 | `J` | Jump to previous keyframe |
 | `K` | Jump to next keyframe |
-| `<` `>` (arrow keys) | Frame by frame |
-
-## Viewer Navigation
-
-| Shortcut | Action |
-|---|---|
-| Mouse Wheel | Zoom (cursor = zoom center) |
-| Middle Mouse Button + Drag | Pan |
-| Double-click (center of shape) | Reset zoom & pan |
+| `←` `→` | Step one frame |

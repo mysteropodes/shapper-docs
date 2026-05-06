@@ -1,16 +1,35 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
+    // ── Getting Started ──────────────────────────────────
     {
       type: 'doc',
       id: 'intro',
       label: '👋 Welcome',
     },
     {
-      type: 'doc',
-      id: 'installation',
-      label: '📦 Installation',
+      type: 'category',
+      label: '🚀 Getting Started',
+      collapsed: false,
+      items: [
+        'installation',
+        'getting-started/ui-overview',
+      ],
     },
+
+    // ── Core Concepts ─────────────────────────────────────
+    {
+      type: 'category',
+      label: '💡 Core Concepts',
+      collapsed: false,
+      items: [
+        'core-concepts/how-it-works',
+        'core-concepts/expression-mode',
+        'core-concepts/live-mode',
+      ],
+    },
+
+    // ── Mask Influences ───────────────────────────────────
     {
       type: 'category',
       label: '🎭 Mask Influences',
@@ -21,33 +40,37 @@ const sidebars = {
         'mask-influences/set-influences',
       ],
     },
+
+    // ── Tools ─────────────────────────────────────────────
     {
       type: 'category',
-      label: '🎬 Animation & Control',
+      label: '🛠️ Tools',
       collapsed: false,
       items: [
+        'tools/selection-modes',
+        { type: 'doc', id: 'tools/magnet-brush',   label: '⭐ Magnet Brush' },
+        { type: 'doc', id: 'tools/transform-box',  label: '⭐ Transform Box' },
+        { type: 'doc', id: 'tools/ik-system',      label: 'IK System (Coming Soon)' },
+      ],
+    },
+
+    // ── Animation ─────────────────────────────────────────
+    {
+      type: 'category',
+      label: '🎬 Animation',
+      collapsed: false,
+      items: [
+        { type: 'doc', id: 'animation/path-animation',      label: '⭐ Path Animation' },
         'animation/control-mask',
         'animation/control-shape',
-        'animation/initial-state',
+        { type: 'doc', id: 'animation/follow-control-null', label: '⭐ Follow & Control Null' },
+        { type: 'doc', id: 'animation/autosway',            label: '⭐ Autosway' },
         'animation/timeline',
         'animation/right-click-options',
       ],
     },
-    {
-      type: 'doc',
-      id: 'ui-navigation',
-      label: '🧭 UI Navigation',
-    },
-    {
-      type: 'doc',
-      id: 'svg-mode',
-      label: '⚡ SVG Mode',
-    },
-    {
-      type: 'doc',
-      id: 'rig-optimize',
-      label: '🔧 Rig Optimize',
-    },
+
+    // ── Perspective ───────────────────────────────────────
     {
       type: 'category',
       label: '📐 Perspective Deform',
@@ -59,21 +82,12 @@ const sidebars = {
         'perspective/two-point-deformer',
       ],
     },
-    {
-      type: 'doc',
-      id: 'bake',
-      label: '🧊 Bake',
-    },
-    {
-      type: 'doc',
-      id: 'shortcuts',
-      label: '⌨️ Shortcuts',
-    },
-    {
-      type: 'doc',
-      id: 'feedback',
-      label: '💡 Feedback',
-    },
+
+    // ── Solo pages ────────────────────────────────────────
+    { type: 'doc', id: 'bake',         label: '🧊 Bake' },
+    { type: 'doc', id: 'rig-optimize', label: '🔧 Rig Optimize' },
+    { type: 'doc', id: 'shortcuts',    label: '⌨️ Shortcuts' },
+    { type: 'doc', id: 'feedback',     label: '💡 Feedback' },
   ],
 };
 
