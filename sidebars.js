@@ -48,9 +48,10 @@ const sidebars = {
       collapsed: false,
       items: [
         'tools/selection-modes',
-        { type: 'doc', id: 'tools/magnet-brush',   label: 'Magnet Brush (NEW)' },
-        { type: 'doc', id: 'tools/transform-box',  label: 'Transform Box (NEW)' },
-        { type: 'doc', id: 'tools/ik-system',      label: 'IK System (Coming Soon)' },
+        { type: 'doc', id: 'tools/magnet-brush',        label: 'Magnet Brush (NEW)' },
+        { type: 'doc', id: 'tools/transform-box',       label: 'Transform Box (NEW)' },
+        { type: 'doc', id: 'tools/right-click-options', label: 'Right Click Options' },
+        { type: 'doc', id: 'tools/ik-system',           label: 'IK System (Coming Soon)' },
       ],
     },
 
@@ -60,13 +61,11 @@ const sidebars = {
       label: '🎬 Animation',
       collapsed: false,
       items: [
-        { type: 'doc', id: 'animation/path-animation',      label: 'Path Animation (NEW)' },
+        { type: 'doc', id: 'animation/path-animation', label: 'Path Animation (NEW)' },
         'animation/control-mask',
         'animation/control-shape',
-        { type: 'doc', id: 'animation/follow-control-null', label: 'Follow & Control Null (NEW)' },
-        { type: 'doc', id: 'animation/autosway',            label: 'Autosway (NEW)' },
+        { type: 'doc', id: 'animation/autosway',       label: 'Autosway (NEW)' },
         'animation/timeline',
-        'animation/right-click-options',
       ],
     },
 
