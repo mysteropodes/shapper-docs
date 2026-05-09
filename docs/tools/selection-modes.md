@@ -34,9 +34,7 @@ Both shape and mask points are displayed in the viewer at the same time. Without
 
 Drag to draw a selection rectangle in the viewer — only points of the **active mode** are selected. This makes it easy to box-select all mask points in an area without accidentally picking up shape points, or vice versa.
 
-:::tip GIF coming soon
-_Illustration: marquee in shape mode selects blue points only, switch to mask mode, same marquee selects mask points only_
-:::
+![Selection modes — marquee](/img/selection-modes.gif)
 
 ## Shortcut
 
