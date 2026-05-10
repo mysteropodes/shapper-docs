@@ -11,9 +11,7 @@ title: Control Mask
 - Moving a mask point automatically **creates a new keyframe** on the mask path property at the current time.
 - In **SVG Mode**, Shape Path keyframes are created too.
 
-<video controls width="680">
-  <source src="/img/FocuSee_Project_2025-03-24_21-01-49_4.mp4" type="video/mp4" />
-</video>
+![Moving mask points and keyframes](/img/control-mask-01.gif)
 
 ---
 
@@ -21,9 +19,7 @@ title: Control Mask
 
 To avoid selecting shape points while selecting mask points, use the **"S" keyboard shortcut** (or the corresponding button).
 
-<video controls width="680">
-  <source src="/img/FocuSee_Project_2025-03-24_21-13-44_1.mp4" type="video/mp4" />
-</video>
+![Selection mode switch](/img/control-mask-02.gif)
 
 When selecting **multiple mask points**, a transform box appears. Use it to:
 - Resize
@@ -32,9 +28,7 @@ When selecting **multiple mask points**, a transform box appears. Use it to:
 
 If you change the **anchor point** of a box and then deselect, the original anchor point is restored on reselect.
 
-<video controls width="680">
-  <source src="/img/AfterFX_wYjRE7k9KG.mp4" type="video/mp4" />
-</video>
+![Transform box operations](/img/control-mask-03.gif)
 
 - You can **lock** the box to keep it visible during modifications.
 - Select multiple boxes with **Shift + Click**.

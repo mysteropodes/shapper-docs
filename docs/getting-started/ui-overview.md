@@ -9,17 +9,7 @@ Shapper's panel is divided into several zones. Understanding each area will help
 
 ## Main Layout
 
-```
-┌─────────────────────────────────────┐
-│              Toolbar                │  ← buttons, mode toggles
-├─────────────────────────────────────┤
-│                                     │
-│         SVG Viewer                  │  ← shapes, masks, influence boxes
-│                                     │
-├─────────────────────────────────────┤
-│           Timeline                  │  ← keyframes, playback
-└─────────────────────────────────────┘
-```
+![Interface Overview](/img/ui-overview.jpg)
 
 ## Toolbar
 

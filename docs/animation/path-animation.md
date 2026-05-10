@@ -3,13 +3,11 @@ id: path-animation
 title: Path Animation
 ---
 
-# <ToolIcon src="/img/icons/icon-two-point-deformer.png" size={36} /> Path Animation
+# Path Animation
 
 Path Animation is a powerful feature that lets you **keyframe shape point positions directly in After Effects**, while the mask deformation continues to apply on top. You get the best of both worlds: precise manual shape control through keyframes, combined with the dynamic influence of your mask rig.
 
-:::tip GIF coming soon
-_Illustration: move a shape point in the viewer → a keyframe is automatically created on the AE timeline → the shape deforms from masks AND the keyframed position_
-:::
+![Path Animation](/img/path-animation.gif)
 
 ## How It Works
 
@@ -34,9 +32,6 @@ This means you can:
 5. Move to another frame and drag again to create a new keyframe
 6. AE interpolates the path between your keyframes
 
-:::tip GIF coming soon
-_Illustration: multi-frame workflow — move point on frame 0, move point on frame 24, playback shows smooth interpolation + deformation_
-:::
 
 ## Use Cases
 

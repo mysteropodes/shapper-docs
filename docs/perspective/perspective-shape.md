@@ -14,6 +14,4 @@ Select your shape and click this button.
 
 ![Perspective Shape button](/img/AfterFX_bFZ7Jovuza.png)
 
-<video controls width="680">
-  <source src="/img/AfterFX_zsmoNipud3.mp4" type="video/mp4" />
-</video>
+![Perspective Shape](/img/perspective-shape.gif)
