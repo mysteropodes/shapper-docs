@@ -14,6 +14,7 @@ const sidebars = {
       items: [
         'installation',
         'getting-started/ui-overview',
+        'getting-started/version-history',
       ],
     },
 
