@@ -10,6 +10,4 @@ Select your shape and click this button.
 
 ![Perspective All Shapes button](/img/AfterFX_5XpQEB2Vzk.png)
 
-<video controls width="680">
-  <source src="/img/AfterFX_fwDr9NOh96.mp4" type="video/mp4" />
-</video>
+![Perspective All Shapes](/img/perspective-all-shapes.gif)

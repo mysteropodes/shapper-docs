@@ -7,9 +7,7 @@ title: Autosway
 
 Autosway generates an **automatic oscillation animation** on a mask point using a sine wave expression. Perfect for organic, looping motion like hair, clothing, or vegetation — without hand-animating every keyframe.
 
-:::tip GIF coming soon
-_Illustration: right-click a mask point → Wave → the point oscillates automatically, the connected shape follows_
-:::
+![Autosway overview](/img/autosway.gif)
 
 ## Activating
 
@@ -35,12 +33,8 @@ The oscillation is based on:
 - **Vegetation** — leaves, grass, tree branches
 - **Tails and antennae** — anything that should bounce or wobble passively
 
-:::tip GIF coming soon
-_Illustration: character hair bouncing with autosway applied to tip mask point_
-:::
-
 ## Notes
 
-- Autosway is applied per mask point — you can apply it to multiple points with different parameters for more complex motion
+- Autosway is applied per mask point — apply it to multiple points with different parameters for more complex motion
 - Since it's an AE expression, it plays back at any frame rate without re-rendering
 - You can edit the expression parameters (amplitude, frequency) directly in the AE expression field after applying

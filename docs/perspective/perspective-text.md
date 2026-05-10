@@ -15,6 +15,4 @@ title: Perspective Text
 Keeping mask modifications when editing text is coming in a future update.
 :::
 
-<video controls width="680">
-  <source src="/img/AfterFX_2VA7hSOeiS.mp4" type="video/mp4" />
-</video>
+![Perspective Text](/img/perspective-text.gif)

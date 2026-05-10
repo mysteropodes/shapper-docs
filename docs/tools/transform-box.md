@@ -7,9 +7,7 @@ title: Transform Box
 
 The Transform Box lets you **move, rotate, and scale a group of selected points** as a unit — both shape points and mask points.
 
-:::tip GIF coming soon
-_Illustration: select multiple shape points, activate transform box, scale and rotate the group_
-:::
+![Transform Box](/img/transform-box.gif)
 
 ## Activating
 

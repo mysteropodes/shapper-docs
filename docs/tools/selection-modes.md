@@ -36,6 +36,8 @@ Drag to draw a selection rectangle in the viewer — only points of the **active
 
 ![Selection modes — marquee](/img/selection-modes.gif)
 
+![Selection mode switch](/img/selection-modes-switch.gif)
+
 ## Shortcut
 
 | Action | Shortcut |

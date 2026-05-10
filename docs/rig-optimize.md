@@ -10,6 +10,4 @@ title: Rig Optimize
 - Click the **Optimize button** → hides all shapes and reveals masks with strokes on them.
 - Click **Optimize again** → removes mask strokes and reveals all shapes.
 
-<video controls width="680">
-  <source src="/img/AfterFX_f0zLHd7YAZ.mp4" type="video/mp4" />
-</video>
+![Rig Optimize](/img/rig-optimize.gif)
