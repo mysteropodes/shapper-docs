@@ -23,15 +23,9 @@ Not working in SVG Mode at this time.
 
 ![Control null icon](/img/dR2lFAv28p.png)
 
-<video controls width="680">
-  <source src="/img/AfterFX_bwzUjhtRKw.mp4" type="video/mp4" />
-</video>
+![Control Null](/img/rco-control-null.gif)
 
 **Control Null — All Points** applies the same to every point of the mask at once.
-
-<video controls width="680">
-  <source src="/img/Eagle_NIV350udYj.mp4" type="video/mp4" />
-</video>
 
 ---
 
@@ -41,11 +35,11 @@ Creates a **null object in AE that follows** the selected mask point. The null m
 
 ![Follow null icon](/img/qACJZwfuWk.png)
 
+![Follow Null](/img/rco-follow-null.gif)
+
 **Follow Null — All Points** creates individual follow nulls for every point of the mask.
 
-<video controls width="680">
-  <source src="/img/AfterFX_zGjCJgkPTo.mp4" type="video/mp4" />
-</video>
+![Follow Null — All Points](/img/rco-follow-all-null.gif)
 
 ---
 
@@ -55,7 +49,7 @@ Creates a **null object in AE that follows** the selected mask point. The null m
 |---|---|
 | You want to **animate** a mask point from AE (null drives the mask) | **Control Null** |
 | You want a null that **tracks** a mask point (mask drives the null) | **Follow Null** |
-| You already have nulls in your scene to use as controls | **Follow Null** (parent the mask to your null via Follow) |
+| You already have nulls in your scene to use as controls | **Follow Null** |
 | You want Shapper to generate clean rig handles | **Control Null** |
 | Apply to every point of a mask at once | **Control All** or **Follow All** |
 
@@ -65,9 +59,7 @@ Creates a **null object in AE that follows** the selected mask point. The null m
 
 **Wave** creates a dynamic oscillating animation across all mask points using the **ShapperSway** effect in AE.
 
-<video controls width="680">
-  <source src="/img/AfterFX_iAq9NmlBd9.mp4" type="video/mp4" />
-</video>
+![Wave Path](/img/rco-wave-path.gif)
 
 #### ShapperSway Parameters
 
