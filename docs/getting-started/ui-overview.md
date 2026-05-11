@@ -49,9 +49,8 @@ The central area displays your shapes and masks as an interactive SVG canvas.
 - **Ghost points** — semi-transparent dots showing a shape point's original (undeformed) position when it has been offset
 
 ### Navigation
-- **Scroll** — zoom in / out
-- **Alt + drag** — pan the view
-- **Click + drag** (empty area) — marquee selection
+
+See [Viewer Navigation](./ui-navigation) for full zoom, pan and selection shortcuts.
 
 ## Timeline
 

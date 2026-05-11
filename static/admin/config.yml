@@ -8,17 +8,27 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: docs-root
-    label: "Pages principales"
-    folder: docs
-    create: false
+
+  - name: getting-started
+    label: "🚀 Getting Started"
+    folder: docs/getting-started
+    create: true
     fields:
-      - {label: "ID", name: "id", widget: "string", required: false}
+      - {label: "ID", name: "id", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: core-concepts
+    label: "💡 Core Concepts"
+    folder: docs/core-concepts
+    create: true
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Contenu", name: "body", widget: "markdown"}
 
   - name: mask-influences
-    label: "Mask Influences"
+    label: "🎭 Mask Influences"
     folder: docs/mask-influences
     create: true
     fields:
@@ -26,8 +36,17 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Contenu", name: "body", widget: "markdown"}
 
+  - name: tools
+    label: "🛠️ Tools"
+    folder: docs/tools
+    create: true
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
   - name: animation
-    label: "Animation & Control"
+    label: "🎬 Animation"
     folder: docs/animation
     create: true
     fields:
@@ -36,10 +55,54 @@ collections:
       - {label: "Contenu", name: "body", widget: "markdown"}
 
   - name: perspective
-    label: "Perspective Deform"
+    label: "📐 Perspective Deform"
     folder: docs/perspective
     create: true
     fields:
       - {label: "ID", name: "id", widget: "string"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: docs-root
+    label: "📄 Pages standalone"
+    files:
+      - label: "Welcome"
+        name: intro
+        file: docs/intro.md
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
+      - label: "Installation"
+        name: installation
+        file: docs/installation.md
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
+      - label: "Bake"
+        name: bake
+        file: docs/bake.md
+        fields:
+          - {label: "ID", name: "id", widget: "string"}
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
+      - label: "Rig Optimize"
+        name: rig-optimize
+        file: docs/rig-optimize.md
+        fields:
+          - {label: "ID", name: "id", widget: "string"}
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
+      - label: "Shortcuts"
+        name: shortcuts
+        file: docs/shortcuts.md
+        fields:
+          - {label: "ID", name: "id", widget: "string"}
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
+      - label: "Feedback"
+        name: feedback
+        file: docs/feedback.md
+        fields:
+          - {label: "ID", name: "id", widget: "string"}
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
