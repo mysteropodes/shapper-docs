@@ -36,16 +36,6 @@ Once the chain is set up, **drag the end point** in the viewer — the joint fol
 
 You can have **multiple IK chains** in the same rig.
 
-## Exporting to After Effects
-
-When you click **Send** (or use Live Mode), Shapper calls `createIKSystem` in AE, which builds a 3-layer rig for each chain:
-
-1. **Controller Null** — a null layer you animate in AE to drive the end position
-2. **IK Expression** (Dan Ebberts method) — applied to the joint layer, solves the angle in real time
-3. **Bone layers** — linked via expressions to follow the IK solve
-
-This means the IK is **live in After Effects** — animate the controller null and the joint bends automatically, without needing Shapper open.
-
 ## Notes
 
 - IK chains work on **mask points** only
