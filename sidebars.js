@@ -50,10 +50,19 @@ const sidebars = {
       collapsed: false,
       items: [
         'tools/selection-modes',
-        { type: 'doc', id: 'tools/magnet-brush',        label: 'Magnet Brush (NEW)' },
-        { type: 'doc', id: 'tools/transform-box',       label: 'Transform Box (NEW)' },
-        { type: 'doc', id: 'tools/right-click-options', label: 'Right Click Options' },
-        { type: 'doc', id: 'tools/ik-system',           label: 'IK System' },
+        { type: 'doc', id: 'tools/magnet-brush',  label: 'Magnet Brush (NEW)' },
+        { type: 'doc', id: 'tools/transform-box', label: 'Transform Box (NEW)' },
+        {
+          type: 'category',
+          label: 'Right Click Options',
+          link: { type: 'doc', id: 'tools/right-click-options' },
+          items: [
+            { type: 'doc', id: 'tools/rco-control-null', label: 'Control Null' },
+            { type: 'doc', id: 'tools/rco-follow-null',  label: 'Follow Null' },
+            { type: 'doc', id: 'tools/rco-wave-path',    label: 'Wave Path' },
+          ],
+        },
+        { type: 'doc', id: 'tools/ik-system', label: 'IK System' },
       ],
     },
 
@@ -66,8 +75,16 @@ const sidebars = {
         { type: 'doc', id: 'animation/path-animation', label: 'Path Animation (NEW)' },
         'animation/control-mask',
         'animation/control-shape',
-        { type: 'doc', id: 'animation/autosway',       label: 'Autosway (NEW)' },
-        'animation/timeline',
+        { type: 'doc', id: 'animation/autosway', label: 'Autosway (NEW)' },
+        {
+          type: 'category',
+          label: 'Timeline',
+          link: { type: 'doc', id: 'animation/timeline' },
+          items: [
+            { type: 'doc', id: 'animation/timeline-keyframes', label: 'Keyframes' },
+            { type: 'doc', id: 'animation/timeline-bake',      label: 'Bake Keyframes' },
+          ],
+        },
       ],
     },
 
