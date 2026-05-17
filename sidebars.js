@@ -53,7 +53,7 @@ const sidebars = {
         { type: 'doc', id: 'tools/magnet-brush',        label: 'Magnet Brush (NEW)' },
         { type: 'doc', id: 'tools/transform-box',       label: 'Transform Box (NEW)' },
         { type: 'doc', id: 'tools/right-click-options', label: 'Right Click Options' },
-        { type: 'doc', id: 'tools/ik-system',           label: 'IK System (Coming Soon)' },
+        { type: 'doc', id: 'tools/ik-system',           label: 'IK System' },
       ],
     },
 
